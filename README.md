@@ -6,7 +6,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Open-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/origin-data-lab/usable-footage-yield-egocentric-capture) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Open-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/origin-data-lab/usable-footage-yield-egocentric-capture) [![Kaggle](https://img.shields.io/badge/Kaggle-Open-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/origindatalab/egocentric-footage-yield-acceptance-layers) [![Technical Note](https://img.shields.io/badge/Technical_Note-Open-0B1220?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://origindatalab.io/technical-field-notes/usable-footage-yield-egocentric-capture.html)
 
-[English technical note](https://origindatalab.io/technical-field-notes/usable-footage-yield-egocentric-capture.html) ? [??? ????](https://origindatalab.io/ko/technical-field-notes/usable-footage-yield-egocentric-capture.html)
+[English technical note](https://origindatalab.io/technical-field-notes/usable-footage-yield-egocentric-capture.html) | [Korean technical note](https://origindatalab.io/ko/technical-field-notes/usable-footage-yield-egocentric-capture.html)
 
 ---
 
