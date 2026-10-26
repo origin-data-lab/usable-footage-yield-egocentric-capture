@@ -1,0 +1,633 @@
+{
+ "stereo_rig_full_session": {
+  "frames": 8694,
+  "duration_s": 289.8,
+  "task_annotation": false,
+  "single_criterion_pass": {
+   "integrity": 1.0,
+   "task": 1.0,
+   "sharp": 0.9020013802622499,
+   "hands": 0.873821025994939
+  },
+  "funnel": [
+   {
+    "step": "integrity",
+    "frames": 8694,
+    "share": 1.0
+   },
+   {
+    "step": "task",
+    "frames": 8694,
+    "share": 1.0
+   },
+   {
+    "step": "sharp",
+    "frames": 7842,
+    "share": 0.9020013802622499
+   },
+   {
+    "step": "hands",
+    "frames": 6894,
+    "share": 0.7929606625258799
+   }
+  ],
+  "frame_yield": 0.7929606625258799,
+  "clip_yield": {
+   "1": 0.6558546123763515,
+   "2": 0.5761444674488153,
+   "3": 0.45801702323441457,
+   "5": 0.27697262479871176
+  },
+  "accepted_runs": 186,
+  "median_run_s": 0.43333333333333335,
+  "clip_yield_with_gap_tolerance": {
+   "0": {
+    "1": 0.6558546123763515,
+    "3": 0.45801702323441457,
+    "5": 0.27697262479871176
+   },
+   "3": {
+    "1": 0.737635150678629,
+    "3": 0.6423970554405337,
+    "5": 0.49562916954221303
+   },
+   "6": {
+    "1": 0.776282493673798,
+    "3": 0.7053140096618358,
+    "5": 0.5790200138026225
+   },
+   "15": {
+    "1": 0.8777317690361168,
+    "3": 0.8481711525189786,
+    "5": 0.8036576949620428
+   }
+  },
+  "per_minute": [
+   {
+    "start_s": 0.0,
+    "frames": 1800,
+    "frame_yield": 0.7616666666666667,
+    "sharp": 0.9183333333333333,
+    "hands": 0.8
+   },
+   {
+    "start_s": 60.0,
+    "frames": 1800,
+    "frame_yield": 0.8861111111111111,
+    "sharp": 0.9205555555555556,
+    "hands": 0.9583333333333334
+   },
+   {
+    "start_s": 120.0,
+    "frames": 1800,
+    "frame_yield": 0.8633333333333333,
+    "sharp": 0.91,
+    "hands": 0.9477777777777778
+   },
+   {
+    "start_s": 180.0,
+    "frames": 1800,
+    "frame_yield": 0.8127777777777778,
+    "sharp": 0.8422222222222222,
+    "hands": 0.9622222222222222
+   },
+   {
+    "start_s": 240.0,
+    "frames": 1494,
+    "frame_yield": 0.6097724230254351,
+    "sharp": 0.9223560910307899,
+    "hands": 0.6653279785809906
+   }
+  ],
+  "sole_rejection_reason": {
+   "integrity": 0,
+   "task": 0,
+   "sharp": 703,
+   "hands": 948
+  },
+  "sensitivity": [
+   {
+    "tau": 0.4,
+    "hands": "none",
+    "frame_yield": 0.9779158040027606,
+    "clip3_yield": 0.9329422590292156,
+    "capture_h_per_accepted_h": 1.0225829216654905,
+    "capture_h_per_accepted_h_clip3": 1.0718776969547528
+   },
+   {
+    "tau": 0.4,
+    "hands": "single",
+    "frame_yield": 0.5187485622268231,
+    "clip3_yield": 0.034046468829077525,
+    "capture_h_per_accepted_h": 1.9277161862527716,
+    "capture_h_per_accepted_h_clip3": 29.37162162162162
+   },
+   {
+    "tau": 0.4,
+    "hands": "consensus",
+    "frame_yield": 0.8556475730388774,
+    "clip3_yield": 0.6289394985047159,
+    "capture_h_per_accepted_h": 1.1687054711654792,
+    "capture_h_per_accepted_h_clip3": 1.5899780541331383
+   },
+   {
+    "tau": 0.5,
+    "hands": "none",
+    "frame_yield": 0.9526109960892569,
+    "clip3_yield": 0.8703703703703703,
+    "capture_h_per_accepted_h": 1.04974643805844,
+    "capture_h_per_accepted_h_clip3": 1.148936170212766
+   },
+   {
+    "tau": 0.5,
+    "hands": "single",
+    "frame_yield": 0.5064412238325282,
+    "clip3_yield": 0.034046468829077525,
+    "capture_h_per_accepted_h": 1.9745627980922098,
+    "capture_h_per_accepted_h_clip3": 29.37162162162162
+   },
+   {
+    "tau": 0.5,
+    "hands": "consensus",
+    "frame_yield": 0.8347135955831608,
+    "clip3_yield": 0.5962732919254659,
+    "capture_h_per_accepted_h": 1.198015708970649,
+    "capture_h_per_accepted_h_clip3": 1.6770833333333333
+   },
+   {
+    "tau": 0.6,
+    "hands": "none",
+    "frame_yield": 0.9020013802622499,
+    "clip3_yield": 0.7330342765125374,
+    "capture_h_per_accepted_h": 1.1086457536342769,
+    "capture_h_per_accepted_h_clip3": 1.364192687902087
+   },
+   {
+    "tau": 0.6,
+    "hands": "single",
+    "frame_yield": 0.4865424430641822,
+    "clip3_yield": 0.034046468829077525,
+    "capture_h_per_accepted_h": 2.05531914893617,
+    "capture_h_per_accepted_h_clip3": 29.37162162162162
+   },
+   {
+    "tau": 0.6,
+    "hands": "consensus",
+    "frame_yield": 0.7929606625258799,
+    "clip3_yield": 0.45801702323441457,
+    "capture_h_per_accepted_h": 1.2610966057441253,
+    "capture_h_per_accepted_h_clip3": 2.183324962330487
+   },
+   {
+    "tau": 0.7,
+    "hands": "none",
+    "frame_yield": 0.8150448585231194,
+    "clip3_yield": 0.4746951920864964,
+    "capture_h_per_accepted_h": 1.22692633361558,
+    "capture_h_per_accepted_h_clip3": 2.1066149745577905
+   },
+   {
+    "tau": 0.7,
+    "hands": "single",
+    "frame_yield": 0.4447895100069013,
+    "clip3_yield": 0.033126293995859216,
+    "capture_h_per_accepted_h": 2.2482544608223427,
+    "capture_h_per_accepted_h_clip3": 30.187499999999996
+   },
+   {
+    "tau": 0.7,
+    "hands": "consensus",
+    "frame_yield": 0.7179664136185875,
+    "clip3_yield": 0.3191856452726018,
+    "capture_h_per_accepted_h": 1.3928228132008973,
+    "capture_h_per_accepted_h_clip3": 3.132972972972973
+   },
+   {
+    "tau": 0.8,
+    "hands": "none",
+    "frame_yield": 0.672762824936738,
+    "clip3_yield": 0.13469059121233035,
+    "capture_h_per_accepted_h": 1.4864079329799966,
+    "capture_h_per_accepted_h_clip3": 7.424423569598633
+   },
+   {
+    "tau": 0.8,
+    "hands": "single",
+    "frame_yield": 0.378191856452726,
+    "clip3_yield": 0.022314239705544053,
+    "capture_h_per_accepted_h": 2.644160583941606,
+    "capture_h_per_accepted_h_clip3": 44.81443298969072
+   },
+   {
+    "tau": 0.8,
+    "hands": "consensus",
+    "frame_yield": 0.600299056820796,
+    "clip3_yield": 0.1112261329652634,
+    "capture_h_per_accepted_h": 1.665836367120138,
+    "capture_h_per_accepted_h_clip3": 8.990692864529473
+   }
+  ]
+ },
+ "phone_knife_prep": {
+  "frames": 1979,
+  "duration_s": 65.96666666666667,
+  "task_annotation": true,
+  "single_criterion_pass": {
+   "integrity": 0.9969681657402729,
+   "task": 0.9595755432036382,
+   "sharp": 0.6695300656897423,
+   "hands": 0.8428499242041435
+  },
+  "funnel": [
+   {
+    "step": "integrity",
+    "frames": 1973,
+    "share": 0.9969681657402729
+   },
+   {
+    "step": "task",
+    "frames": 1894,
+    "share": 0.9570490146538656
+   },
+   {
+    "step": "sharp",
+    "frames": 1307,
+    "share": 0.6604345629105609
+   },
+   {
+    "step": "hands",
+    "frames": 1120,
+    "share": 0.5659423951490652
+   }
+  ],
+  "frame_yield": 0.5659423951490652,
+  "clip_yield": {
+   "1": 0.2627589691763517,
+   "2": 0.1480545730166751,
+   "3": 0.1167256189994947,
+   "5": 0.0
+  },
+  "accepted_runs": 99,
+  "median_run_s": 0.16666666666666666,
+  "clip_yield_with_gap_tolerance": {
+   "0": {
+    "1": 0.2627589691763517,
+    "3": 0.1167256189994947,
+    "5": 0.0
+   },
+   "3": {
+    "1": 0.43506821627084385,
+    "3": 0.17786760990399192,
+    "5": 0.1101566447700859
+   },
+   "6": {
+    "1": 0.5078322385042952,
+    "3": 0.302678120262759,
+    "5": 0.18089944416371906
+   },
+   "15": {
+    "1": 0.7458312278928751,
+    "3": 0.6326427488630622,
+    "5": 0.5250126326427489
+   }
+  },
+  "per_minute": [
+   {
+    "start_s": 0.0,
+    "frames": 1800,
+    "frame_yield": 0.5561111111111111,
+    "sharp": 0.6588888888888889,
+    "hands": 0.8355555555555556
+   }
+  ],
+  "sole_rejection_reason": {
+   "integrity": 5,
+   "task": 12,
+   "sharp": 509,
+   "hands": 187
+  },
+  "sensitivity": [
+   {
+    "tau": 0.4,
+    "hands": "none",
+    "frame_yield": 0.8054573016675088,
+    "clip3_yield": 0.4320363820111167,
+    "capture_h_per_accepted_h": 1.2415307402760352,
+    "capture_h_per_accepted_h_clip3": 2.314619883040936
+   },
+   {
+    "tau": 0.4,
+    "hands": "single",
+    "frame_yield": 0.33046993431025773,
+    "clip3_yield": 0.0,
+    "capture_h_per_accepted_h": 3.0259938837920486,
+    "capture_h_per_accepted_h_clip3": null
+   },
+   {
+    "tau": 0.4,
+    "hands": "consensus",
+    "frame_yield": 0.6922688226376958,
+    "clip3_yield": 0.2405255179383527,
+    "capture_h_per_accepted_h": 1.4445255474452554,
+    "capture_h_per_accepted_h_clip3": 4.157563025210084
+   },
+   {
+    "tau": 0.5,
+    "hands": "none",
+    "frame_yield": 0.7427993936331481,
+    "clip3_yield": 0.3415866599292572,
+    "capture_h_per_accepted_h": 1.3462585034013606,
+    "capture_h_per_accepted_h_clip3": 2.9275147928994083
+   },
+   {
+    "tau": 0.5,
+    "hands": "single",
+    "frame_yield": 0.303688731682668,
+    "clip3_yield": 0.0,
+    "capture_h_per_accepted_h": 3.292845257903494,
+    "capture_h_per_accepted_h_clip3": null
+   },
+   {
+    "tau": 0.5,
+    "hands": "consensus",
+    "frame_yield": 0.6376958059626073,
+    "clip3_yield": 0.21273370389085397,
+    "capture_h_per_accepted_h": 1.5681458003169573,
+    "capture_h_per_accepted_h_clip3": 4.7007125890736345
+   },
+   {
+    "tau": 0.6,
+    "hands": "none",
+    "frame_yield": 0.6604345629105609,
+    "clip3_yield": 0.11824153612935827,
+    "capture_h_per_accepted_h": 1.5141545524100994,
+    "capture_h_per_accepted_h_clip3": 8.457264957264957
+   },
+   {
+    "tau": 0.6,
+    "hands": "single",
+    "frame_yield": 0.26680141485598785,
+    "clip3_yield": 0.0,
+    "capture_h_per_accepted_h": 3.748106060606061,
+    "capture_h_per_accepted_h_clip3": null
+   },
+   {
+    "tau": 0.6,
+    "hands": "consensus",
+    "frame_yield": 0.5659423951490652,
+    "clip3_yield": 0.1167256189994947,
+    "capture_h_per_accepted_h": 1.7669642857142858,
+    "capture_h_per_accepted_h_clip3": 8.567099567099566
+   },
+   {
+    "tau": 0.7,
+    "hands": "none",
+    "frame_yield": 0.5816068721576554,
+    "clip3_yield": 0.06720565942395149,
+    "capture_h_per_accepted_h": 1.7193744569939182,
+    "capture_h_per_accepted_h_clip3": 14.879699248120302
+   },
+   {
+    "tau": 0.7,
+    "hands": "single",
+    "frame_yield": 0.23244062657908035,
+    "clip3_yield": 0.0,
+    "capture_h_per_accepted_h": 4.302173913043478,
+    "capture_h_per_accepted_h_clip3": null
+   },
+   {
+    "tau": 0.7,
+    "hands": "consensus",
+    "frame_yield": 0.49924204143506823,
+    "clip3_yield": 0.06720565942395149,
+    "capture_h_per_accepted_h": 2.0030364372469633,
+    "capture_h_per_accepted_h_clip3": 14.879699248120302
+   },
+   {
+    "tau": 0.8,
+    "hands": "none",
+    "frame_yield": 0.4901465386558868,
+    "clip3_yield": 0.0,
+    "capture_h_per_accepted_h": 2.04020618556701,
+    "capture_h_per_accepted_h_clip3": null
+   },
+   {
+    "tau": 0.8,
+    "hands": "single",
+    "frame_yield": 0.19706922688226378,
+    "clip3_yield": 0.0,
+    "capture_h_per_accepted_h": 5.074358974358974,
+    "capture_h_per_accepted_h_clip3": null
+   },
+   {
+    "tau": 0.8,
+    "hands": "consensus",
+    "frame_yield": 0.42193026781202625,
+    "clip3_yield": 0.0,
+    "capture_h_per_accepted_h": 2.370059880239521,
+    "capture_h_per_accepted_h_clip3": null
+   }
+  ]
+ },
+ "phone_seasoning": {
+  "frames": 1978,
+  "duration_s": 65.93333333333334,
+  "task_annotation": true,
+  "single_criterion_pass": {
+   "integrity": 0.9964610717896866,
+   "task": 0.8953488372093024,
+   "sharp": 0.7153690596562184,
+   "hands": 0.8988877654196158
+  },
+  "funnel": [
+   {
+    "step": "integrity",
+    "frames": 1971,
+    "share": 0.9964610717896866
+   },
+   {
+    "step": "task",
+    "frames": 1764,
+    "share": 0.8918099089989889
+   },
+   {
+    "step": "sharp",
+    "frames": 1381,
+    "share": 0.6981799797775531
+   },
+   {
+    "step": "hands",
+    "frames": 1320,
+    "share": 0.6673407482305359
+   }
+  ],
+  "frame_yield": 0.6673407482305359,
+  "clip_yield": {
+   "1": 0.551567239635996,
+   "2": 0.4706774519716886,
+   "3": 0.42922143579373107,
+   "5": 0.32962588473205257
+  },
+  "accepted_runs": 49,
+  "median_run_s": 0.16666666666666666,
+  "clip_yield_with_gap_tolerance": {
+   "0": {
+    "1": 0.551567239635996,
+    "3": 0.42922143579373107,
+    "5": 0.32962588473205257
+   },
+   "3": {
+    "1": 0.6516683518705764,
+    "3": 0.6132457027300303,
+    "5": 0.5495449949443882
+   },
+   "6": {
+    "1": 0.6587462082912032,
+    "3": 0.6203235591506572,
+    "5": 0.6203235591506572
+   },
+   "15": {
+    "1": 0.7108190091001011,
+    "3": 0.6799797775530839,
+    "5": 0.6253791708796764
+   }
+  },
+  "per_minute": [
+   {
+    "start_s": 0.0,
+    "frames": 1800,
+    "frame_yield": 0.6422222222222222,
+    "sharp": 0.6911111111111111,
+    "hands": 0.8888888888888888
+   }
+  ],
+  "sole_rejection_reason": {
+   "integrity": 7,
+   "task": 18,
+   "sharp": 318,
+   "hands": 61
+  },
+  "sensitivity": [
+   {
+    "tau": 0.4,
+    "hands": "none",
+    "frame_yield": 0.7795753286147624,
+    "clip3_yield": 0.6203235591506572,
+    "capture_h_per_accepted_h": 1.2827496757457846,
+    "capture_h_per_accepted_h_clip3": 1.6120619396903018
+   },
+   {
+    "tau": 0.4,
+    "hands": "single",
+    "frame_yield": 0.6511627906976745,
+    "clip3_yield": 0.23559150657229525,
+    "capture_h_per_accepted_h": 1.5357142857142856,
+    "capture_h_per_accepted_h_clip3": 4.244635193133047
+   },
+   {
+    "tau": 0.4,
+    "hands": "consensus",
+    "frame_yield": 0.743680485338726,
+    "clip3_yield": 0.602123356926188,
+    "capture_h_per_accepted_h": 1.344663494221618,
+    "capture_h_per_accepted_h_clip3": 1.6607892527287995
+   },
+   {
+    "tau": 0.5,
+    "hands": "none",
+    "frame_yield": 0.7401415571284126,
+    "clip3_yield": 0.5293225480283115,
+    "capture_h_per_accepted_h": 1.3510928961748634,
+    "capture_h_per_accepted_h_clip3": 1.889207258834766
+   },
+   {
+    "tau": 0.5,
+    "hands": "single",
+    "frame_yield": 0.6248736097067745,
+    "clip3_yield": 0.23407482305358948,
+    "capture_h_per_accepted_h": 1.6003236245954693,
+    "capture_h_per_accepted_h_clip3": 4.272138228941685
+   },
+   {
+    "tau": 0.5,
+    "hands": "consensus",
+    "frame_yield": 0.7057633973710818,
+    "clip3_yield": 0.5131445904954499,
+    "capture_h_per_accepted_h": 1.4169054441260747,
+    "capture_h_per_accepted_h_clip3": 1.948768472906404
+   },
+   {
+    "tau": 0.6,
+    "hands": "none",
+    "frame_yield": 0.6981799797775531,
+    "clip3_yield": 0.4448938321536906,
+    "capture_h_per_accepted_h": 1.4322954380883417,
+    "capture_h_per_accepted_h_clip3": 2.2477272727272726
+   },
+   {
+    "tau": 0.6,
+    "hands": "single",
+    "frame_yield": 0.5904954499494439,
+    "clip3_yield": 0.23255813953488372,
+    "capture_h_per_accepted_h": 1.6934931506849313,
+    "capture_h_per_accepted_h_clip3": 4.3
+   },
+   {
+    "tau": 0.6,
+    "hands": "consensus",
+    "frame_yield": 0.6673407482305359,
+    "clip3_yield": 0.42922143579373107,
+    "capture_h_per_accepted_h": 1.4984848484848485,
+    "capture_h_per_accepted_h_clip3": 2.3297997644287394
+   },
+   {
+    "tau": 0.7,
+    "hands": "none",
+    "frame_yield": 0.6390293225480284,
+    "clip3_yield": 0.2649140546006067,
+    "capture_h_per_accepted_h": 1.5648734177215189,
+    "capture_h_per_accepted_h_clip3": 3.7748091603053435
+   },
+   {
+    "tau": 0.7,
+    "hands": "single",
+    "frame_yield": 0.5480283114256825,
+    "clip3_yield": 0.19514661274014156,
+    "capture_h_per_accepted_h": 1.8247232472324721,
+    "capture_h_per_accepted_h_clip3": 5.124352331606218
+   },
+   {
+    "tau": 0.7,
+    "hands": "consensus",
+    "frame_yield": 0.6132457027300303,
+    "clip3_yield": 0.2649140546006067,
+    "capture_h_per_accepted_h": 1.6306677658697444,
+    "capture_h_per_accepted_h_clip3": 3.7748091603053435
+   },
+   {
+    "tau": 0.8,
+    "hands": "none",
+    "frame_yield": 0.5677451971688574,
+    "clip3_yield": 0.23306370070778565,
+    "capture_h_per_accepted_h": 1.7613535173642032,
+    "capture_h_per_accepted_h_clip3": 4.290672451193059
+   },
+   {
+    "tau": 0.8,
+    "hands": "single",
+    "frame_yield": 0.4919110212335693,
+    "clip3_yield": 0.1718907987866532,
+    "capture_h_per_accepted_h": 2.0328879753340185,
+    "capture_h_per_accepted_h_clip3": 5.817647058823529
+   },
+   {
+    "tau": 0.8,
+    "hands": "consensus",
+    "frame_yield": 0.5429726996966633,
+    "clip3_yield": 0.23306370070778565,
+    "capture_h_per_accepted_h": 1.8417132216014898,
+    "capture_h_per_accepted_h_clip3": 4.290672451193059
+   }
+  ]
+ }
+}
